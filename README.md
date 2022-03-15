@@ -15,3 +15,4 @@
 * Here's the list of the projects:
   
 1. [App Counter](https://github.com/yoruwitch/flutter/tree/main/contador) - First **version realeased**;
+2. [App To-Do List](https://github.com/yoruwitch/flutter/tree/main/todo-list/todo_list) - *ongoing*.

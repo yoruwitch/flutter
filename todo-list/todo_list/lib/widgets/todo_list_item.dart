@@ -4,34 +4,37 @@ import 'package:intl/intl.dart';
 import 'package:todo_list/models/todo.dart';
 
 class TodoListItem extends StatelessWidget {
-  const TodoListItem({Key? key, required this.task}) : super(key: key);
+  const TodoListItem({
+    Key? key,
+    required this.task,
+    required this.onDelete,
+  }) : super(key: key);
 
   final Todo task;
-
+  final Function(Todo) onDelete;
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 2),
       child: Slidable(
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
-            color: Colors.grey,
+            color: const Color.fromRGBO(223, 146, 142, 1),
           ),
-          
           padding: const EdgeInsets.all(16),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
                 DateFormat('MM/dd/yy - EE').format(task.dateTime),
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 12,
                 ),
               ),
               Text(
                 task.title,
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
               )
             ],
           ),
@@ -43,9 +46,9 @@ class TodoListItem extends StatelessWidget {
             color: Colors.red,
             icon: Icons.delete,
             caption: 'Delete',
-            onTap: (){
+            onTap: () {
+              onDelete(task);
             },
-          
           )
         ],
       ),

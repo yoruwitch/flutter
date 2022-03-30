@@ -1,16 +1,22 @@
-# todo_list
+# To-Do List
 
-A new Flutter project.
+### What is this application:
 
-## Getting Started
+* This is a very simple To-Do List app made following the course already spoken in the main page;
+* In the future, the application is going to have a web version as well (please teacher drop the classes).
 
-This project is a starting point for a Flutter application.
+### What does this thing do:
 
-A few resources to get you started if this is your first Flutter project:
+* The application can basically: 
+  1. Add a new task;
+  2. Delete the tasks by a red "delete" button;
+  3. All tasks can be deleted with "Clean all" delete;
+  4. Undo button undo deleted tasks;
+  5. Save state works;
+  6. Date and time are recorded;
+  7. It doesn't cook an egg.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Resources used:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Pallet made by [Coolors](https://coolors.co/ead2ac-df928e-c58882-d1dede-1d201f).
+* StackOverflow saved this project. For real.

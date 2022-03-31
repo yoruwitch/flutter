@@ -14,5 +14,6 @@
 ### Projects:  
 * Here's the list of the projects:
   
-1. [App Counter](https://github.com/yoruwitch/flutter/tree/main/contador) - First **version realeased**;
-2. [App To-Do List](https://github.com/yoruwitch/flutter/tree/main/todo-list/todo_list) - *ongoing*.
+1. [App Counter](https://github.com/yoruwitch/flutter/tree/main/contador) - First version **realeased**;
+2. [App To-Do List](https://github.com/yoruwitch/flutter/tree/main/todo-list/todo_list) - First version **released**.
+3. [App IMC-Calculator](https://github.com/yoruwitch/flutter/tree/main/imc-calculator/imc_calculator) *currently ongoing*

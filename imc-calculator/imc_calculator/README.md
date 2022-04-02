@@ -1,16 +1,9 @@
-# imc_calculator
+# IMC Calculator
 
-A new Flutter project.
+## What is IMC?
 
-## Getting Started
+* From portuguese "Índice de Massa Corporal", it's a value that mesures the scale of how ideal is your height in relation to your weight.
 
-This project is a starting point for a Flutter application.
+* It's a very simple application, but I used new concepts like validator and forms.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Stackoverflow helped me so much!!
